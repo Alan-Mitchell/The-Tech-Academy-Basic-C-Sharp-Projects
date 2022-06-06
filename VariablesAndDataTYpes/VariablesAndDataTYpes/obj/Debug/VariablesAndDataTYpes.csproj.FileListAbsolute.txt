@@ -1,0 +1,7 @@
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\VariablesAndDataTYpes\VariablesAndDataTYpes\bin\Debug\VariablesAndDataTYpes.exe.config
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\VariablesAndDataTYpes\VariablesAndDataTYpes\bin\Debug\VariablesAndDataTYpes.exe
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\VariablesAndDataTYpes\VariablesAndDataTYpes\bin\Debug\VariablesAndDataTYpes.pdb
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\VariablesAndDataTYpes\VariablesAndDataTYpes\obj\Debug\VariablesAndDataTYpes.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\VariablesAndDataTYpes\VariablesAndDataTYpes\obj\Debug\VariablesAndDataTYpes.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\VariablesAndDataTYpes\VariablesAndDataTYpes\obj\Debug\VariablesAndDataTYpes.exe
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\VariablesAndDataTYpes\VariablesAndDataTYpes\obj\Debug\VariablesAndDataTYpes.pdb
