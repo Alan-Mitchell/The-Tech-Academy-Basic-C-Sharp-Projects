@@ -1,0 +1,7 @@
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\MathOperatorsApp\MathOperatorsApp\bin\Debug\MathOperatorsApp.exe.config
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\MathOperatorsApp\MathOperatorsApp\bin\Debug\MathOperatorsApp.exe
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\MathOperatorsApp\MathOperatorsApp\bin\Debug\MathOperatorsApp.pdb
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\MathOperatorsApp\MathOperatorsApp\obj\Debug\MathOperatorsApp.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\MathOperatorsApp\MathOperatorsApp\obj\Debug\MathOperatorsApp.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\MathOperatorsApp\MathOperatorsApp\obj\Debug\MathOperatorsApp.exe
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\MathOperatorsApp\MathOperatorsApp\obj\Debug\MathOperatorsApp.pdb
