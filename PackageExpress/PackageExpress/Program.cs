@@ -20,7 +20,9 @@ namespace PackageExpress
             {
                 Console.WriteLine("Package too heavy to be shipped via Package Express.");
                 Console.ReadLine();
+
             }
+
             else if (pkgWeight < 50)
             {
                 Console.WriteLine("What is the width of your package?");
@@ -29,15 +31,21 @@ namespace PackageExpress
                 int pkgheight = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine("What is the length of your package?");
                 int pkglength = Convert.ToInt32(Console.ReadLine());
-                if (pkgwidth * pkgheight * pkglength > 50)
-                {
-                    Console.WriteLine("Package too big to be shipped via Package Express.");
+            
+            
+               if (pkgwidth * pkgheight * pkglength > 50)
+               {
+                  Console.WriteLine("Package too big to be shipped via Package Express.");
+                   Console.ReadLine();
+               }
+               else {
+                        int dimensions = pkgwidth * pkgheight * pkglength;
+                   Console.WriteLine("Your total is $" + dimensions * pkgWeight / 100);
                     Console.ReadLine();
-                }
-                else {
-                    int total = pkgwidth * pkgheight * pkglength * pkgWeight / 100;
-                    Console.WriteLine("Your total is $" + total);
-                    Console.ReadLine();
+
+            
+
+            }
                 }
 
             }
@@ -46,4 +54,4 @@ namespace PackageExpress
 
         }
     }
-}
+
