@@ -39,6 +39,21 @@ namespace ArraySubmissionAssignment
             {
                 Console.WriteLine("The color you chose was " + numbers[numberInput]);
                 Console.ReadLine();
+
+            }
+            List<string> StringExample = new List<string> {"Fun", "Fuel", "Fashion" };
+            Console.WriteLine("Select an index");
+            int stringinput = Convert.ToInt32(Console.ReadLine());
+
+            if(stringinput > 2)
+            {
+                Console.WriteLine("Please choose a smaller number");
+                Console.ReadLine();
+            }
+            else
+            {
+                Console.WriteLine("You chose the correct f word " + StringExample[stringinput]);
+                Console.ReadLine();
             }
         }
     }
