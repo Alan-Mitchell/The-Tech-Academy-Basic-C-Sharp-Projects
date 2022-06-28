@@ -14,21 +14,16 @@ namespace SixPartAssignment
             ////instance of a string array
            string[] GOATS = { "Serena Willams", "Lebron James", "Hank Aaron" };
             Console.WriteLine("Name a sports GOAT.");
-            Console.ReadLine();
+            string athleteInput = Console.ReadLine();
 
             foreach(string i in GOATS)
             {
-               Console.WriteLine(i + " is a sports GOAT!");
+               Console.WriteLine(i + athleteInput + " is a sports GOAT!");
                 Console.ReadLine();
             }
 
             //Part 2 
-            while(true)
-            {
-              Console.WriteLine("This is an infinite loop");
-             Console.ReadLine();
-            }
-
+           //This fixes the infinte loop 
            int t = 0;
             while (t < 5)
            {

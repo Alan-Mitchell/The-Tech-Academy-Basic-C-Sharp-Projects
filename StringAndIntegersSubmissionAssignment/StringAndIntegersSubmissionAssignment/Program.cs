@@ -1,11 +1,20 @@
 ﻿using System;
+using System.Collections.Generic;
 
 class Program
 {
     static void Main(string[] args)
+       
     {
-        try
+
+        try {  
+
+
+           List<int> numbers1 = new List<int> { 1, 4, 6, 8, 9 };
+
+
         {
+
             Console.WriteLine("Pick a number. ");
             int numberOne = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Pick a second number. ");
@@ -14,7 +23,8 @@ class Program
             int numberThree = numberOne / numberTwo;
             Console.WriteLine(numberOne + " divided by " + numberTwo + " equals " + numberThree);
             Console.ReadLine();
-        }
+        } }
+            
 
         catch (FormatException ex)
 
