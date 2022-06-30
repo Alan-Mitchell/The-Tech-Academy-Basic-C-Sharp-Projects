@@ -12,6 +12,14 @@ namespace MainMethodAssignment
         {
             return x + y;
         }
+        public double MathMethod(double x, double y)
+        {
+            return x + y;
+        }
+        public string MathMethod(string x,string y)
+        {
+            return x + y;
+        }
     }
    
 }
