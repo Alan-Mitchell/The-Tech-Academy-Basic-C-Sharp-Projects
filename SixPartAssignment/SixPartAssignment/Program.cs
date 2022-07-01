@@ -4,129 +4,136 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SixPartAssignment
+namespace LoopSixPartAssignment
 {
     class Program
     {
         static void Main(string[] args)
         {
-            ////Part 1
-            ////instance of a string array
-           string[] GOATS = { "Serena Willams", "Lebron James", "Hank Aaron" };
-            Console.WriteLine("Name a sports GOAT.");
-            string athleteInput = Console.ReadLine();
+            //One-dimensional array of strings
+            string[] cars = { "BMW", "Ford", "GM" };
+            //User input added 
+            Console.WriteLine("Add another car brand!");
+            string userInput = Console.ReadLine();
 
-            foreach(string i in GOATS)
+            //this loop prints out the array
+            foreach (string i in cars)
             {
-               Console.WriteLine(i + athleteInput + " is a sports GOAT!");
-                Console.ReadLine();
-            }
+                Console.WriteLine(i + userInput);
 
-            //Part 2 
-           //This fixes the infinte loop 
-           int t = 0;
-            while (t < 5)
-           {
-               Console.WriteLine(t);
-                t++;
             }
+            Console.ReadLine();
+            //while(true)
+            //{
+            //    Console.WriteLine("this loop is infinte");
+            //    Console.ReadLine();
+            //}
 
-            //Part 3 
-            int a = 3;
-            while (a < 5)
             {
-               Console.WriteLine(a);
-                a++;
-            }
-            int b = 0;
-            while (b <= 5)
-            {
-                Console.WriteLine(b);
-                b++;
-            }
-            //Part 4
-            List<string> Sports = new List<string>();
-            Sports.Add("Tennis");
-            Sports.Add("Basketball");
-            Sports.Add("Hockey");
-
-            Console.WriteLine("Name a sport ");
-            string sportInput = Console.ReadLine();
-
-            foreach (var sport in Sports)
-            {
-                Console.WriteLine(sport);
-                Console.ReadLine();
-            }
-
-            bool answer = String.Equals(Sports, sportInput);
-
-            if (answer is true)
-            {
-                Console.WriteLine("You got it ");
-                Console.ReadLine();
-            }
-            else
-            {
-                Console.WriteLine("Please enter another sport");
-                Console.ReadLine();
-            }
-
-            //Part 5
-            List<string> drinks = new List<string>();
-            drinks.Add("Wine");
-            drinks.Add("Water");
-            drinks.Add("Soda");
-            drinks.Add("Wine");
-
-            Console.WriteLine("Enter a drink");
-            string drinkInput = Console.ReadLine();
-            
-            foreach (var drink in drinks)
-            {
-                Console.WriteLine(drink);
-                Console.ReadLine();
-            }
-
-            bool drinkanswer = String.Equals(drinks, drinkInput);
-
-            if (drinkanswer is true)
-            {
-                Console.WriteLine("You got it ");
-                Console.ReadLine();
-            }
-            else
-            {
-                Console.WriteLine("Please enter another drink");
-                Console.ReadLine();
-            }
-
-            //Part 6
-            List<String> Cakes = new List<string>();
-            Cakes.Add("Carrot");
-            Cakes.Add("Cheesecake");
-            Cakes.Add("Strawberry");
-            Cakes.Add("Carrot");
-
-            List<string> Cakes2 = new List<string>();
-
-            foreach(var cake in Cakes)
-            {
-                if (Cakes2.Contains(cake))
+                int i = 0;
+                while (i < 5)
                 {
-                    Console.WriteLine("I have already seen {0} before", cake);
-                }
-                else
-                {
-                    Console.WriteLine("I have not seen {0} before", cake);
-                    Cakes2.Add(cake);
+                    Console.WriteLine(i);
 
+                    i++;
+                }
+
+                {
+                    int b = 0;
+                    while (b < 3)
+                    {
+                        Console.WriteLine(b);
+
+                        b++;
+                    }
+                    {
+                        int c = 0;
+                        while (c <= 9)
+                        {
+                            Console.WriteLine(c);
+
+                            c++;
+                        }
+                        Console.ReadLine();
+
+                        {
+                            List<string> Foods = new List<string>();
+
+                            Foods.Add("Shrimp");
+                            Foods.Add("Lamb");
+                            Foods.Add("Hotdogs");
+                            Foods.Add("Hamburgers");
+
+                            Console.WriteLine("Add a food");
+                            string foodInput = Console.ReadLine();
+
+                            if (Foods.Contains(foodInput))
+                            {
+                                for (int Food = 0; Food < Foods.Count; Food++)
+
+                                {
+                                    if (foodInput == Foods[Food])
+                                    {
+                                        Console.WriteLine(Food);
+                                    }
+
+
+                                }
+                            }
+                            else
+                            {
+                                Console.WriteLine("No match");
+                            }
+                            Console.ReadLine();
+
+                            List<string> States = new List<string> { "TN", "NY", "OR", "TN" };
+                            Console.WriteLine("Please enter a state abbreviation");
+                            string stateInput = Console.ReadLine();
+
+                            if (States.Contains(stateInput))
+                            {
+                                for (int State = 0; State < States.Count; State++)
+
+                                {
+                                    if (stateInput == States[State])
+                                    {
+                                        Console.WriteLine(State);
+                                    }
+
+
+                                }
+                            }
+                            else
+                            {
+                                Console.WriteLine("No match");
+                            }
+                            Console.ReadLine();
+
+                            List<string> Colors = new List<string> { "Red", "Blue", "Green", "Red" };
+                            foreach (string Color in Colors)
+                            {
+                                if (Colors.Distinct().Count() != Colors.Count())
+                                {
+                                    Console.WriteLine("Color appears twice in the List");
+                                }
+                                else
+                                {
+                                    Console.WriteLine("Not a duplicate");
+                                }
+                                Console.ReadLine();
+                            }
+
+
+
+
+
+
+
+                        }
+                    }
                 }
             }
-            
-
-
-
         }
     }
 }
+;
