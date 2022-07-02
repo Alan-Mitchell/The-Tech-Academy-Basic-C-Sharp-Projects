@@ -1,0 +1,7 @@
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\StringAndIntegersSubmissionAssignment\StringAndIntegersSubmissionAssignment\bin\Debug\StringAndIntegersSubmissionAssignment.exe.config
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\StringAndIntegersSubmissionAssignment\StringAndIntegersSubmissionAssignment\bin\Debug\StringAndIntegersSubmissionAssignment.exe
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\StringAndIntegersSubmissionAssignment\StringAndIntegersSubmissionAssignment\bin\Debug\StringAndIntegersSubmissionAssignment.pdb
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\StringAndIntegersSubmissionAssignment\StringAndIntegersSubmissionAssignment\obj\Debug\StringAndIntegersSubmissionAssignment.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\StringAndIntegersSubmissionAssignment\StringAndIntegersSubmissionAssignment\obj\Debug\StringAndIntegersSubmissionAssignment.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\StringAndIntegersSubmissionAssignment\StringAndIntegersSubmissionAssignment\obj\Debug\StringAndIntegersSubmissionAssignment.exe
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\StringAndIntegersSubmissionAssignment\StringAndIntegersSubmissionAssignment\obj\Debug\StringAndIntegersSubmissionAssignment.pdb

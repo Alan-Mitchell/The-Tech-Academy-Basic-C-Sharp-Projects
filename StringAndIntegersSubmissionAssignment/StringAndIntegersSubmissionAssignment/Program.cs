@@ -12,17 +12,16 @@ class Program
 
            List<int> numbers1 = new List<int> { 1, 4, 6, 8, 9 };
 
-
+            foreach(int num1 in numbers1)
         {
 
             Console.WriteLine("Pick a number. ");
             int numberOne = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Pick a second number. ");
-            int numberTwo = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Dividing the two...");
-            int numberThree = numberOne / numberTwo;
-            Console.WriteLine(numberOne + " divided by " + numberTwo + " equals " + numberThree);
-            Console.ReadLine();
+
+                Console.WriteLine("List divided answers " + num1 / numberOne);
+                Console.WriteLine();
+
+
         } }
             
 
