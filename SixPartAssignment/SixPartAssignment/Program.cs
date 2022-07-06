@@ -110,9 +110,12 @@ namespace LoopSixPartAssignment
                             Console.ReadLine();
 
                             List<string> Colors = new List<string> { "Red", "Blue", "Green", "Red" };
+
+                            List<string> Colors2 = new List<string> { };
+
                             foreach (string Color in Colors)
                             {
-                                if (Colors.Distinct().Count() != Colors.Count())
+                                if (Colors2.Contains(Color))
                                 {
                                     Console.WriteLine("Color appears twice in the List");
                                 }
@@ -120,6 +123,7 @@ namespace LoopSixPartAssignment
                                 {
                                     Console.WriteLine("Not a duplicate");
                                 }
+                                Colors2.Add(Color);
                                 Console.ReadLine();
                             }
 
