@@ -4,11 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MethodsAndObjectsSubmission
+namespace AbstractClassSubmission
 {
-    class Employee : Person
+    class Program
     {
-        public int id
-        { get; set; }
+        static void Main(string[] args)
+        {
+        }
     }
 }

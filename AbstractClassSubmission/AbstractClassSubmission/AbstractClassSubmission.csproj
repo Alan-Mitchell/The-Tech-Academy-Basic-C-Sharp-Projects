@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{12A4BA0A-D2CB-4AC9-A5D6-570DC7821DCA}</ProjectGuid>
+    <ProjectGuid>{C2D03553-45FD-461B-AF32-FEFAD41C5A16}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>MethodsAndObjectsSubmission</RootNamespace>
-    <AssemblyName>MethodsAndObjectsSubmission</AssemblyName>
+    <RootNamespace>AbstractClassSubmission</RootNamespace>
+    <AssemblyName>AbstractClassSubmission</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Employee.cs" />
-    <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

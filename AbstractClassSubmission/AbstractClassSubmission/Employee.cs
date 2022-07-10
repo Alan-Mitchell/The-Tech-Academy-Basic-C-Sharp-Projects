@@ -4,11 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MethodsAndObjectsSubmission
+namespace AbstractClassSubmission
 {
-    class Employee : Person
+    class Employee
     {
-        public int id
-        { get; set; }
     }
 }
