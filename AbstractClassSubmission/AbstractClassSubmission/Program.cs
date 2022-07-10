@@ -10,6 +10,13 @@ namespace AbstractClassSubmission
     {
         static void Main(string[] args)
         {
+            Employee example = new Employee();
+            SayName();
+        }
+
+        private static void SayName()
+        {
+            throw new NotImplementedException();
         }
     }
 }

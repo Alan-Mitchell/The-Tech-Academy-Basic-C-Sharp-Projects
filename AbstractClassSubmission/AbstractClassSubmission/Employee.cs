@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace AbstractClassSubmission
 {
-    class Employee
+    public class Employee : Person
     {
+        public override void SayName()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
