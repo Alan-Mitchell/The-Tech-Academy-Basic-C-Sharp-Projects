@@ -1,0 +1,7 @@
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\OperatorSubmissionAssignment\OperatorSubmissionAssignment\bin\Debug\OperatorSubmissionAssignment.exe.config
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\OperatorSubmissionAssignment\OperatorSubmissionAssignment\bin\Debug\OperatorSubmissionAssignment.exe
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\OperatorSubmissionAssignment\OperatorSubmissionAssignment\bin\Debug\OperatorSubmissionAssignment.pdb
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\OperatorSubmissionAssignment\OperatorSubmissionAssignment\obj\Debug\OperatorSubmissionAssignment.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\OperatorSubmissionAssignment\OperatorSubmissionAssignment\obj\Debug\OperatorSubmissionAssignment.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\OperatorSubmissionAssignment\OperatorSubmissionAssignment\obj\Debug\OperatorSubmissionAssignment.exe
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\OperatorSubmissionAssignment\OperatorSubmissionAssignment\obj\Debug\OperatorSubmissionAssignment.pdb

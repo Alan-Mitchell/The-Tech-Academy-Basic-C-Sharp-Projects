@@ -6,8 +6,13 @@ using System.Threading.Tasks;
 
 namespace AbstractClassSubmission
 {
-    public class Employee : Person
+    public class Employee : Person, IQuittable
     {
+        public void Quit(Person person)
+        {
+            throw new NotImplementedException();
+        }
+
         public override void SayName()
         {
             throw new NotImplementedException();
