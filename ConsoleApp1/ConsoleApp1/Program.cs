@@ -4,14 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MethodsAndObjectsSubmission
+namespace ConsoleApp1
 {
-    class Program : Person
+    class Program
     {
         static void Main(string[] args)
         {
-            Employee Sample = new Employee() {FirstName = "Sample", LastName = "Student" };
-            Sample.SayName();
         }
     }
 }

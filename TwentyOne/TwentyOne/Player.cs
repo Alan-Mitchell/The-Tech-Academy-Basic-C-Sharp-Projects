@@ -14,13 +14,13 @@ namespace TwentyOne
         public string Name { get; set; }
         public int isActivelyPlaying { get; set; }
 
-        public static Game operator+ (Game game, Player player)
+        public static Game operator +(Game game, Player player)
         {
             game.Players.Add(player);
             return game;
 
         }
-        public static Game operator- (Game game, Player player)
+        public static Game operator -(Game game, Player player)
         {
             game.Players.Remove(player);
             return game;
