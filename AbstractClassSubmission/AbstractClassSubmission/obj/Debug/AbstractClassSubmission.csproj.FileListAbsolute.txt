@@ -1,0 +1,7 @@
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\AbstractClassSubmission\AbstractClassSubmission\bin\Debug\AbstractClassSubmission.exe.config
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\AbstractClassSubmission\AbstractClassSubmission\bin\Debug\AbstractClassSubmission.exe
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\AbstractClassSubmission\AbstractClassSubmission\bin\Debug\AbstractClassSubmission.pdb
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\AbstractClassSubmission\AbstractClassSubmission\obj\Debug\AbstractClassSubmission.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\AbstractClassSubmission\AbstractClassSubmission\obj\Debug\AbstractClassSubmission.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\AbstractClassSubmission\AbstractClassSubmission\obj\Debug\AbstractClassSubmission.exe
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\AbstractClassSubmission\AbstractClassSubmission\obj\Debug\AbstractClassSubmission.pdb

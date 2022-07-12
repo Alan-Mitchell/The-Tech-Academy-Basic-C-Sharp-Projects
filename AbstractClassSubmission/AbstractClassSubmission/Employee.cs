@@ -8,14 +8,20 @@ namespace AbstractClassSubmission
 {
     public class Employee : Person, IQuittable
     {
-        public void Quit(Person person)
+        
+        public void Quit()
             
         {
             
             Console.WriteLine("Employee Quit");
-            Console.ReadLine();
+            
         }
 
-       
+        public override void SayName()
+        {
+            Console.WriteLine(firstName, lastName);
+            
+        }
     }
+    
 }

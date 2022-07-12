@@ -17,7 +17,9 @@ namespace AbstractClassSubmission
 
             IQuittable quitter = new Employee();
             quitter.Quit();
+            Console.ReadLine();
         }
+
 
         
     }

@@ -9,5 +9,6 @@ namespace AbstractClassSubmission
     interface IQuittable
     {
         void Quit();
+        
     }
 }
