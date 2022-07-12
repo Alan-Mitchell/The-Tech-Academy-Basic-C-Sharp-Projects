@@ -14,6 +14,9 @@ namespace AbstractClassSubmission
             example.firstName = "Sample";
             example.lastName = "Student";
             example.SayName();
+
+            IQuittable quitter = new Employee();
+            quitter.Quit();
         }
 
         
