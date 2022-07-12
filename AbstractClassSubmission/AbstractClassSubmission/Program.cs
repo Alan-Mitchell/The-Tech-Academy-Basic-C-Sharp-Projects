@@ -11,12 +11,11 @@ namespace AbstractClassSubmission
         static void Main(string[] args)
         {
             Employee example = new Employee();
-            SayName();
+            example.firstName = "Sample";
+            example.lastName = "Student";
+            example.SayName();
         }
 
-        private static void SayName()
-        {
-            throw new NotImplementedException();
-        }
+        
     }
 }
