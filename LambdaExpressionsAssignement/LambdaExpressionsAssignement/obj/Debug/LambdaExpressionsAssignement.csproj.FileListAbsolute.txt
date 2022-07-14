@@ -1,0 +1,7 @@
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\LambdaExpressionsAssignement\LambdaExpressionsAssignement\bin\Debug\LambdaExpressionsAssignement.exe.config
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\LambdaExpressionsAssignement\LambdaExpressionsAssignement\bin\Debug\LambdaExpressionsAssignement.exe
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\LambdaExpressionsAssignement\LambdaExpressionsAssignement\bin\Debug\LambdaExpressionsAssignement.pdb
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\LambdaExpressionsAssignement\LambdaExpressionsAssignement\obj\Debug\LambdaExpressionsAssignement.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\LambdaExpressionsAssignement\LambdaExpressionsAssignement\obj\Debug\LambdaExpressionsAssignement.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\LambdaExpressionsAssignement\LambdaExpressionsAssignement\obj\Debug\LambdaExpressionsAssignement.exe
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\LambdaExpressionsAssignement\LambdaExpressionsAssignement\obj\Debug\LambdaExpressionsAssignement.pdb

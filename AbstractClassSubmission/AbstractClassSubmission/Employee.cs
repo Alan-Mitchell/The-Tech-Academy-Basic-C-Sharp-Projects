@@ -10,17 +10,13 @@ namespace AbstractClassSubmission
     {
         
         public void Quit()
-            
         {
-            
             Console.WriteLine("Employee Quit");
-            
         }
 
         public override void SayName()
         {
-            Console.WriteLine(firstName, lastName);
-            
+            Console.WriteLine("{0, {1}", firstName, lastName);
         }
     }
     
