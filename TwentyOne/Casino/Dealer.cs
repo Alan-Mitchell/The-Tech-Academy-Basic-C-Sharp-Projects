@@ -18,10 +18,10 @@ namespace TwentyOne
             Hand.Add(Deck.Cards.First());
             string card = string.Format(Deck.Cards.First().ToString() + "\n");
             Console.WriteLine(card);
-            using (StreamWriter file = new StreamWriter(@"C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\logs\logs.txt", true))
-            {
-                file.WriteLine(card);
-            }
+            //using (StreamWriter file = new StreamWriter(@"C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\logs\logs.txt", true))
+            //{
+            //    file.WriteLine(card);
+            //}
 
 
             Deck.Cards.RemoveAt(0);

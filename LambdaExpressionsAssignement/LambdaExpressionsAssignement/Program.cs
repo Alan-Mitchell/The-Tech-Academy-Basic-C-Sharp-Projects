@@ -40,10 +40,7 @@ namespace LambdaExpressionsAssignement
 
 
             JoeEmployee = (List<Employee>)EmployeeList.Where(x => x.FirstName == "Joe");
-
-
-
-
+            List<Employee> IdEmployee = (List<Employee>)EmployeeList.Where(a => a.Id > 5);
             Console.ReadLine();
         }
     }
