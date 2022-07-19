@@ -9,7 +9,7 @@ namespace LambdaExpressionsAssignement
     class Program
     {
         static void Main(string[] args)
-        {
+        {//Creates the list of Employess 
             List<Employee> EmployeeList = new List<Employee>();
             EmployeeList.Add(new Employee() { Id = 1, FirstName = "Joe", LastName = "Smith" });
             EmployeeList.Add(new Employee() { Id = 2, FirstName = "Joe", LastName = "Turner" });
@@ -21,9 +21,9 @@ namespace LambdaExpressionsAssignement
             EmployeeList.Add(new Employee() { Id = 16, FirstName = "Job", LastName = "Smith" });
             EmployeeList.Add(new Employee() { Id = 15, FirstName = "Alan", LastName = "Smith" });
             EmployeeList.Add(new Employee() { Id = 12, FirstName = "Jane", LastName = "Smith" });
-
+            //List is given an instance 
             List<Employee> JoeEmployee = new List<Employee>();
-
+           
             foreach(Employee emp in EmployeeList)
             {
                 if (emp.FirstName =="Joe" )
@@ -38,7 +38,7 @@ namespace LambdaExpressionsAssignement
             }
 
 
-
+            //Lambda expressions
             JoeEmployee = (List<Employee>)EmployeeList.Where(x => x.FirstName == "Joe");
             List<Employee> IdEmployee = (List<Employee>)EmployeeList.Where(a => a.Id > 5);
             Console.ReadLine();
