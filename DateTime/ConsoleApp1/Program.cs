@@ -12,14 +12,15 @@ namespace ConsoleApp1
 
         {
             //New instance of a datetime object
-            DateTime dateTime = new DateTime(2022, 7, 17, 12, 03, 34);
-            Console.WriteLine(dateTime);
+            //DateTime dateTime = new DateTime();
+            Console.WriteLine(DateTime.Now);
 
+            //user providiing a number. 
             Console.WriteLine("Please provide a number");
             int x = Convert.ToInt32(Console.ReadLine());
 
-            DateTime dateTime1 = new DateTime(2022, 7, 17, 12 + x, 03, 34);
-            Console.WriteLine(dateTime1);
+            Console.WriteLine(DateTime.Now.AddHours(x));
+            
 
             Console.ReadLine();
         }
