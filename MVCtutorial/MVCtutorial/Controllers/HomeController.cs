@@ -10,19 +10,21 @@ namespace MVCtutorial.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            
+            return View("Contact");
         }
 
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
 
+           
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult Contact(int id=0)
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = id;
 
             return View();
         }
