@@ -6,13 +6,27 @@ using System.Threading.Tasks;
 
 namespace ConstructorSubmission
 {
-   
-       class Calendar1
+    public class mySampleClass
+    {
+        public mySampleClass()
         {
-            public const int Months = 12;
             
-       
+        }
+        public mySampleClass(int Age)
+        {
+           
+        }
+
+        public mySampleClass(int Age, string Name)
+        {
+             
+        }
+
+        
     }
-    }
+
+     const string sampleClass = "Sample Class";
+    var Students = 10;
+}
     
 
