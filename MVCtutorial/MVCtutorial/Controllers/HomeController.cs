@@ -10,6 +10,7 @@ namespace MVCtutorial.Controllers
     {
         public ActionResult Index()
         {
+            List
             
             return View("Contact");
         }
