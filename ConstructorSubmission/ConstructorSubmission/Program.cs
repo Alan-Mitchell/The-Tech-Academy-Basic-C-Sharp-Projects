@@ -21,6 +21,7 @@ public class ConstTest
             x = p1;
             y = p2;
         }
+
     }
 
     static void Main()
