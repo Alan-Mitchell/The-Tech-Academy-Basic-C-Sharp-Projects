@@ -17,6 +17,8 @@ namespace CarInsurance.Controllers
         // GET: Insurees
         public ActionResult Index()
         {
+
+
             return View(db.Insurees.ToList());
         }
 
@@ -123,5 +125,51 @@ namespace CarInsurance.Controllers
             }
             base.Dispose(disposing);
         }
+
+        Insuree insuree = new Insuree();
+        int quotePrice = 0;
+        public int Quote() {
+            if (insuree.CarYear < 2000 )
+            {
+
+                quotePrice += 25;
+            }
+            if (insuree.CarYear > 2015 )
+            {
+                quotePrice += 25;
+            }
+            if (insuree.CarMake == "Porsche")
+            {
+                quotePrice += 25;
+            }
+            if (insuree.CarMake == "Porsche" && insuree.CarMake == "911 Carrera" )
+            {
+                quotePrice += 50;
+            }
+            if (DateTime.Now.Year - insuree.DateofBirth.Year < 18)
+            {
+                quotePrice += 100;
+            }
+            if (DateTime.Now.Year -insuree.DateofBirth.Year == 19 || DateTime.Now.Year- insuree.DateofBirth.Year <= 25  )
+            {
+                quotePrice += 50;
+            }
+            if (DateTime.Now.Year - insuree.DateofBirth.Year >= 26)
+            {
+                quotePrice += 25;
+            }
+            if( insuree.SpeedingTickets == 1)
+            {
+                quotePrice += 10;
+            }
+
+
+
+
+
+        }
+
+        
+        
     }
 }
