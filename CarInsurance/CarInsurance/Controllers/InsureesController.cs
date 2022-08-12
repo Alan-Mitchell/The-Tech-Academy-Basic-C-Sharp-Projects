@@ -14,6 +14,12 @@ namespace CarInsurance.Controllers
     {
         private InsuranceEntities db = new InsuranceEntities();
 
+        public ActionResult Admin()
+        {
+
+
+            return View(db.Insurees.ToList());
+        }
         // GET: Insurees
         public ActionResult Index()
         {
@@ -52,6 +58,7 @@ namespace CarInsurance.Controllers
         {
             if (ModelState.IsValid)
             {
+                insuree.Quote = CalcQuote(insuree);
                 db.Insurees.Add(insuree);
                 db.SaveChanges();
                 return RedirectToAction("Index");
@@ -126,9 +133,10 @@ namespace CarInsurance.Controllers
             base.Dispose(disposing);
         }
 
-        Insuree insuree = new Insuree();
-        int quotePrice = 0;
-        public int Quote() {
+        public decimal CalcQuote(Insuree insuree)
+        {
+            decimal quotePrice = 50m;
+
             if (insuree.CarYear < 2000 )
             {
 
@@ -142,15 +150,15 @@ namespace CarInsurance.Controllers
             {
                 quotePrice += 25;
             }
-            if (insuree.CarMake == "Porsche" && insuree.CarMake == "911 Carrera" )
+            if (insuree.CarMake == "Porsche" && insuree.CarModel == "911 Carrera" )
             {
-                quotePrice += 50;
+                quotePrice += 25;
             }
-            if (DateTime.Now.Year - insuree.DateofBirth.Year < 18)
+            if (DateTime.Now.Year - insuree.DateofBirth.Year <= 18)
             {
                 quotePrice += 100;
             }
-            if (DateTime.Now.Year -insuree.DateofBirth.Year == 19 || DateTime.Now.Year- insuree.DateofBirth.Year <= 25  )
+            if (DateTime.Now.Year -insuree.DateofBirth.Year >= 19 && DateTime.Now.Year- insuree.DateofBirth.Year <= 25  )
             {
                 quotePrice += 50;
             }
@@ -158,10 +166,19 @@ namespace CarInsurance.Controllers
             {
                 quotePrice += 25;
             }
-            if( insuree.SpeedingTickets == 1)
+            if (insuree.SpeedingTickets > 0)
             {
-                quotePrice += 10;
+                quotePrice += insuree.SpeedingTickets * 10;
             }
+            if(insuree.DUI == true)
+            {
+                quotePrice += quotePrice * .25m;
+            }
+            if (insuree.CoverageTypes == true)
+            {
+                quotePrice += .50m * quotePrice;
+            }
+            return quotePrice;
 
 
 

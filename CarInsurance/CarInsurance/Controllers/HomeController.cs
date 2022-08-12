@@ -26,5 +26,11 @@ namespace CarInsurance.Controllers
 
             return View();
         }
+        public ActionResult Admin()
+        {
+            ViewBag.Message = "Admin page";
+
+            return View();
+        }
     }
 }
